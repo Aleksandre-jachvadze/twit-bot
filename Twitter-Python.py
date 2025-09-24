@@ -1,3 +1,12 @@
+"""
+Twitter Bot Python Script
+Author: Aleksandre Jachvadze
+Date: 2025-09-24
+Description: Fully functional Twitter bot using Tweepy 4.x
+"""
+
+__author__ = "Aleksandre Jachvadze"
+
 import tweepy
 import pandas as pd
 
@@ -83,6 +92,8 @@ def start_stream(keywords_list):
 
 # ================== Example Usage ==================
 if __name__ == "__main__":
+    print(f"Script written by {__author__}")
+    
     # Tweet something
     # post_tweet("Hello from my Python bot 🚀")
     
